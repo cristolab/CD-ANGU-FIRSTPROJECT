@@ -1,0 +1,9 @@
+<H4 class="hd-center">{{ title }} {{ version }} app is running!</H4>
+<div>
+  <app-brique-component *ngFor="let bric of LesBriques"
+    [bricName]="bric.bname"
+    [status]="bric.bstatus"></app-brique-component> 
+</div>
+<div>
+  <button [disabled]="!isActivated" (click)="onActivateAll()">Tout allumer</button>
+</div>

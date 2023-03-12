@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+.simple-row {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 50px 10px 50px;    
+    align-items: center;      
+}
+
+.simple-cell {
+    padding: 10px 10px 10px 10px;        
+}
+
+.bg-rouge {
+    background-color: lightcoral;
+}
+
+.bg-vert {
+    background-color: lightgreen;
+}
+
+.bg-bleu {
+    background-color: lightblue;
+}
+
+.bg-gris {
+    background-color: lightgray;
+}
+
+.hd-center {
+    text-align: center;
+}
+
+.icon-off {
+    width:20px;
+    height:20px;
+    background-color: red;
+}
+
+.icon-on {
+    width:20px;
+    height:20px;
+    background-color: green;    
+}

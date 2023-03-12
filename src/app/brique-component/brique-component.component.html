@@ -1,0 +1,12 @@
+<div class="simple-row">
+    <div class="simple-cell bg-rouge">
+        brique : {{bricName}}
+    </div>
+    <div class="simple-cell bg-gris">
+        {{getStatus()}}
+    </div>     
+    <div class="icon-off" *ngIf="getStatus()==='Off'"></div>
+    <input type="text" [(ngModel)]="bricName"> 
+
+</div>
+
